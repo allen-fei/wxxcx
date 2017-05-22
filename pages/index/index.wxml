@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" class="container">
+  <view class="info">
+    <image class="info-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="info-text"><text class="info-nickname">不用特意去买，那天逛街看到了就顺便买一个就好啦！</text></view>
+  </view>
+  <view class="info">
+    <image class="info-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="info-text"><text class="info-nickname">我们是要这样子做的，你想怎么样？</text></view>
+  </view>
+  <view class="info info-my">
+    <view class="info-text"><text class="info-nickname">我不想怎么样，随便你们怎么做咯！走着瞧！</text></view>
+    <image class="info-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>  
+  </view>
+  <view class="info">
+    <image class="info-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="info-text"><text class="info-nickname">搞笑，好搞笑，</text></view>
+  </view>
+   <view class="info info-my">
+    <view class="info-text"><text class="info-nickname">搞笑，好搞笑，</text></view>
+    <image class="info-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image> 
+  </view>
+</scroll-view>
+<view class="footer">
+  <view class="f-input"><input type="text" placeholder-class="place" placeholder="输入聊天字符" confirm-type="send" bindconfirm="sendup"  /></view>
+
+</view>

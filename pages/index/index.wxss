@@ -1,0 +1,58 @@
+/**index.wxss**/
+.info {
+  width: auto;
+  height: auto;
+  margin: 30rpx 20rpx;
+  display: flex;
+}
+
+.info .info-avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+
+.info .info-text {
+  color: #333;
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: 24px;
+  margin-left: 10px;
+  max-width: 70%;
+}
+
+.info-my{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.info-my .info-text{
+  background-color: #22d2bb;
+  margin-left: 0; margin-right: 10px;
+}
+
+.footer{
+  height: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  border-top: 1px #ddd solid;
+}
+
+.footer .f-input{
+  margin: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.footer .f-input input{
+  height: 38px;
+  border: 1px #f3f3f3 solid;
+  border-radius: 3px;
+  background: #fff;
+  padding: 0 3px;
+}
